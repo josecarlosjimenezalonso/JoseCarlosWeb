@@ -29,6 +29,19 @@ img {
     transform: translate(-50%, -50%);
 }
 
+.abajolinke{
+    position: absolute;
+    top: 85%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+.abajogithub{
+    position: absolute;
+    top: 85%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
 
 #wrapper{
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
@@ -41,7 +54,7 @@ section{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 650px;
   margin: 0 auto;
   max-width: 1440px;
   overflow: hidden;
