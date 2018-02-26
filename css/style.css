@@ -1,19 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.container {
+/*.container {
     position: relative;
     text-align: center;
     max-width: 100%;
     color: white;
-}
+}*/
+
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.centereddebajo {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+
+#wrapper{
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100% !important;
+}
+
+section{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  margin: 0 auto;
+  max-width: 1440px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100% !important;
+}
+
+#bloque1 {
+    background-image: url("DSC_0919.JPG");
+    background-size: cover;
+}
+
+#jumbotron{
+  width: 50px;
+}
+
+.mukta{
+  font-family: 'Mukta Mahee', sans-serif;
+}
