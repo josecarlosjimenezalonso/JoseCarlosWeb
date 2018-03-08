@@ -24,22 +24,8 @@ img {
 }
 .centereddebajo {
     position: absolute;
-    top: 55%;
+    top: 57%;
     left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.abajolinke{
-    position: absolute;
-    top: 85%;
-    left: 52%;
-    transform: translate(-50%, -50%);
-}
-
-.abajogithub{
-    position: absolute;
-    top: 85%;
-    left: 48%;
     transform: translate(-50%, -50%);
 }
 
@@ -54,8 +40,8 @@ section{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 650px;
   margin: 0 auto;
+ 
   max-width: 1440px;
   overflow: hidden;
   padding: 0;
@@ -63,15 +49,97 @@ section{
   width: 100% !important;
 }
 
+
 #bloque1 {
+    height: 650px;
     background-image: url("DSC_0919.JPG");
+    background-size: 100% 125%;
+}
+
+#bloque2 {
+	   height: auto;
+    background-color: #262626;
     background-size: cover;
 }
 
-#jumbotron{
-  width: 50px;
+
+#bloque3{
+	height: 650px;
+	background-color: #F0F0F0;
+	background-size: cover;
 }
+
 
 .mukta{
   font-family: 'Mukta Mahee', sans-serif;
+}
+
+.navbartext{
+   font-family: 'Mukta Mahee', sans-serif;
+   font-size: 30px;
+}
+
+.nav.navbar-nav	 li a {
+    color: white;
+    font-size: medium;
+}
+
+.navbar{
+	background-color: #c2c2a3;
+	height: 15px;
+}
+
+.josecarlos{
+	font-size: 30px;
+}
+
+.pacifico{
+    font-family: 'Pacifico', cursive;
+}
+
+.varela{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+
+.container2{
+	height: 100%;
+}
+
+.seccionperfil{
+	font-size: 20px;
+		color: #80b3ff;
+		margin-left: 8%;
+		margin-right: 2%;
+		margin-top: 30px;
+}
+
+.textoperfil{
+		font-size: 20px;
+		color: #cce0ff;
+		margin-left: 8%;
+		margin-right: 2%;
+		margin-top: 15px;
+}
+
+.circle { 
+   width: 75px;
+   height: 75px;
+   background: red; 
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 75px;
+   margin-left: 15px;
 }
