@@ -64,11 +64,17 @@ section{
 
 
 #bloque3{
-	height: 650px;
+	height: auto;
 	background-color: #F0F0F0;
 	background-size: cover;
 }
 
+
+#bloque4{
+  height: auto;
+  background-color: #202020;
+  background-size: cover;
+}
 
 .mukta{
   font-family: 'Mukta Mahee', sans-serif;
@@ -137,9 +143,21 @@ section{
 .circle { 
    width: 75px;
    height: 75px;
-   background: red; 
-   -moz-border-radius: 70px; 
-   -webkit-border-radius: 70px; 
+   background: #575757; 
+   -moz-border-radius: 65px; 
+   -webkit-border-radius: 65px; 
    border-radius: 75px;
    margin-left: 15px;
+}
+
+
+
+.quicksand{
+  font-family: 'Quicksand', sans-serif;
+}
+
+hr.style13 {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
 }
