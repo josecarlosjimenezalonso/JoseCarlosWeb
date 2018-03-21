@@ -65,14 +65,14 @@ section{
 
 #bloque3{
 	height: auto;
-	background-color: #F0F0F0;
+	background-color: #FDFFFF;
 	background-size: cover;
 }
 
 
 #bloque4{
   height: auto;
-  background-color: #202020;
+  background-color: #304040;
   background-size: cover;
 }
 
@@ -126,7 +126,7 @@ section{
 
 .seccionperfil{
 	font-size: 20px;
-		color: #80b3ff;
+		color: #66a5ad;
 		margin-left: 8%;
 		margin-right: 2%;
 		margin-top: 30px;
@@ -245,7 +245,9 @@ hr.style13 {
 background: rgba(245, 245, 245, 1); 
 border: 0px solid rgba(245, 245, 245, 1); 
 border-radius: 0px;  
-height: 21px;}
+height: 21px;
+}
+
 .progress-bar-custom {
   background: rgba(66, 139, 202, 1);
 }
@@ -261,3 +263,19 @@ height: 21px;}
 .popins{
 	font-family: 'Poppins', sans-serif;
 }
+
+.square_btn {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #FFF;
+    background: #34888c;
+    transition: .4s;
+  }
+
+.square_btn:hover {
+    background: #6ac3c8;
+}
+
